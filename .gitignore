@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Token / credential artifacts - must never be committed
+token.json
+**/token.json
+
+# Playwright browser binaries (reinstalled via `playwright install`)
+.playwright/
+
+# Local run artifacts (now under Desktop\G2CInvoice, but just in case
+# anything is ever generated alongside the project folder too)
+RunLog_*.log
+Invoices*.csv
+G2CAccounts.csv
+*payments*.csv
+
+# IDE folders
+.vs/
+.vscode/
